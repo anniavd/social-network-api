@@ -59,7 +59,7 @@ createUser({ body }, res) {
 
   //delete user by id
   deleteUser({ params }, res) {
-    User.findOneAndUpdate({ _id: params.id })
+    User.findOneAndRemove({ _id: params.id })
     .then(dbUserData => {
       if (!dbUserData) {
         res.status(404).json({ message: 'No user found with this id!' });
