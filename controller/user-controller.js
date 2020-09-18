@@ -70,6 +70,7 @@ createUser({ body }, res) {
     .catch(err => res.status(400).json(err));
   },
 
+  //add a friend to a user
   addFriend({params}, res) {
     User.findOneAndUpdate(
       {_id:params.userId},
@@ -88,6 +89,7 @@ createUser({ body }, res) {
     });
   },
 
+  //delete a friend to a user
   deleteFriend({ params }, res) {
     User.findOneAndUpdate(
       {_id:params.userId},
