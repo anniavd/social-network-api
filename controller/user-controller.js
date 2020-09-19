@@ -11,7 +11,7 @@ createUser({ body }, res) {
  getAllUser({ body }, res) {
     User.find({})
       .populate({
-        path: 'trought',
+        path: 'thoughts',
         select: '-__v'
       })
       .populate({
@@ -29,7 +29,7 @@ createUser({ body }, res) {
   getUserById({ params }, res) {
       User.findOne({_id:params.id})
       .populate({
-        path: 'trought',
+        path: 'thoughts',
         select: '-__v'
       })
       .populate({
