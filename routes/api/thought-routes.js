@@ -27,9 +27,14 @@ router
   .delete(deleteThought);
 
 // /api/thoughts/:thoughtId/reactions
-  router
-  .route('/api/thoughts/:thoughtId/reactions')
-  .post(addReactions)  
+router
+  .route('/:thoughtId/reactions')
+  .post(addReactions); 
+
+
+// /api/thoughts/:thoughtId/reactions/:reactionId
+router  
+  .route('/:thoughtId/reactions/:reactionId')
   .delete(deleteReactions);
 
 
