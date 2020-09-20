@@ -1,4 +1,4 @@
-# Friends's Phrases
+# SOCIAL NETWORK API
 
 
 ![License](https://img.shields.io/badge/License-NONE-grenn.svg)
@@ -6,11 +6,12 @@
 
 # Description
 
-Friends's Phrases is an API for a social networking web application where users can share their thoughts, react to their friends' thoughts, and create a friends list. 
+SOCIAL NETWORK API is an API for a social networking web application where users can share their thoughts, react to their friends' thoughts, and create a friends list. 
   
 
-#### video link her
+  ### You can find an explanatory video about the app.
 
+ [link to the app video part I](https://drive.google.com/file/d/13WMzqq90sbmbsx8-85rHA12xIB-wXx2w/view)
 # Table of Contents
 
 [License](#License)
