@@ -9,9 +9,13 @@
 SOCIAL NETWORK API is an API for a social networking web application where users can share their thoughts, react to their friends' thoughts, and create a friends list. 
   
 
-  ### You can find an explanatory video about the app.
+  ### You can find an explanatory videos about the app.
 
- [link to the app video part I](https://drive.google.com/file/d/13WMzqq90sbmbsx8-85rHA12xIB-wXx2w/view)
+ [link to the app video part I](https://drive.google.com/file/d/1-x1Zs7WdpxNLJ6175d4PdtOBZEehZehU/view)
+
+ [link to the app video part II](https://drive.google.com/file/d/1kABF446e47j6zbG0nTh_TxYZy2Y3WC-u/view)
+
+
 # Table of Contents
 
 [License](#License)
